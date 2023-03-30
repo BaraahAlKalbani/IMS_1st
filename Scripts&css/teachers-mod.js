@@ -1,3 +1,19 @@
+//Login and logout authentication
+const username = localStorage.getItem("username");
+const password = localStorage.getItem("password");
+
+if (username == null || password == null) {
+  window.location.href = "login.html";
+}
+
+const logoffButton = document.querySelector("#logOut");
+
+logoffButton.addEventListener("click", () => {
+  localStorage.clear();
+  window.location.href = "login.html";
+});
+
+//get id's
 const teacherIdSelect1 = document.getElementById("id2");
 const teacherIdSelect2 = document.getElementById("id3");
 
@@ -5,7 +21,13 @@ const addTab = document.getElementById("tab-nav-2");
 const deleteTab = document.getElementById("tab-nav-3");
 
 function addOptionsToSelectTeacher(selectElement) {
-  fetch("http://localhost:8080/teachers")
+  fetch("http://localhost:8080/teachers", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
+    },
+  })
     .then((response) => response.json())
     .then((teachers) => {
       teachers.forEach((teacher) => {
@@ -24,10 +46,6 @@ addOptionsToSelectTeacher(teacherIdSelect1);
 addOptionsToSelectTeacher(teacherIdSelect2);
 
 //add
-const username = "root";
-const password = "admin";
-const credentials = btoa(`${username}:${password}`);
-
 const addBtn = document.getElementById("add");
 
 addBtn.addEventListener("click", (event) => {
@@ -52,7 +70,7 @@ addBtn.addEventListener("click", (event) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Basic ${credentials}`,
+      Authorization: "Basic " + btoa(username + ":" + password),
     },
     body: JSON.stringify(teacher),
   })
@@ -91,7 +109,7 @@ updateButton.addEventListener("click", (event) => {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Basic ${credentials}`,
+      Authorization: "Basic " + btoa(username + ":" + password),
     },
     body: JSON.stringify(data),
   })
@@ -119,6 +137,10 @@ deleteBtn.addEventListener("click", (event) => {
 
   fetch(`http://localhost:8080/teachers/${id}`, {
     method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
+    },
   })
     .then((response) => {
       if (response.ok) {

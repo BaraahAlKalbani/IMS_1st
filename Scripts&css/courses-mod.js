@@ -1,15 +1,37 @@
-const username = "root";
-const password = "admin";
-const credentials = btoa(`${username}:${password}`);
+//Login and logout authentication
+const username = localStorage.getItem("username");
+const password = localStorage.getItem("password");
 
+if (username == null || password == null) {
+  window.location.href = "login.html";
+}
+
+const logoffButton = document.querySelector("#logOut");
+
+logoffButton.addEventListener("click", () => {
+  localStorage.clear();
+  window.location.href = "login.html";
+});
+
+//get Ids
 const teacherIdSelect1 = document.getElementById("teacherId1");
 const teacherIdSelect2 = document.getElementById("teacherId2");
+addOptionsToSelectTeacher(teacherIdSelect1);
+addOptionsToSelectTeacher(teacherIdSelect2);
 
 const courseIdSelect1 = document.getElementById("id2");
 const courseIdSelect2 = document.getElementById("id3");
+addOptionsToSelectCourse(courseIdSelect1);
+addOptionsToSelectCourse(courseIdSelect2);
 
 function addOptionsToSelectTeacher(selectElement) {
-  fetch("http://localhost:8080/teachers")
+  fetch("http://localhost:8080/teachers", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
+    },
+  })
     .then((response) => response.json())
     .then((teachers) => {
       teachers.forEach((teacher) => {
@@ -24,26 +46,31 @@ function addOptionsToSelectTeacher(selectElement) {
     });
 }
 
-addOptionsToSelectTeacher(teacherIdSelect1);
-addOptionsToSelectTeacher(teacherIdSelect2);
-
 function addOptionsToSelectCourse(selectElement) {
-  fetch("http://localhost:8080/courses")
-    .then((response) => response.json())
-    .then((courses) => {
-      courses.forEach((course) => {
-        const option = document.createElement("option");
-        option.value = course.id;
-        option.text = course.id + ": " + course.name;
-        selectElement.appendChild(option);
-      });
+  if (selectElement) {
+    fetch("http://localhost:8080/courses", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "Basic " + btoa(username + ":" + password),
+      },
     })
-    .catch((error) => {
-      console.error("Error fetching courses:", error);
-    });
+      .then((response) => response.json())
+      .then((courses) => {
+        courses.forEach((course) => {
+          const option = document.createElement("option");
+          option.value = course.id;
+          option.text = course.id + ": " + course.name;
+          selectElement.appendChild(option);
+        });
+      })
+      .catch((error) => {
+        console.error("Error fetching courses:", error);
+      });
+  } else {
+    console.error("Error: selectElement is null or undefined.");
+  }
 }
-addOptionsToSelectCourse(courseIdSelect1);
-addOptionsToSelectCourse(courseIdSelect2);
 
 //add
 const addCourseForm = document.querySelector("form");
@@ -69,6 +96,7 @@ addCourseButton.addEventListener("click", (event) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        Authorization: "Basic " + btoa(username + ":" + password),
       },
       body: JSON.stringify(course),
     })
@@ -122,6 +150,7 @@ updateForm.addEventListener("submit", (event) => {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
     },
     body: JSON.stringify(course),
   })
@@ -145,8 +174,12 @@ deleteBtn.addEventListener("click", (event) => {
 
   const courseId = document.getElementById("id3").value;
 
-  fetch(`/api/courses/${courseId}`, {
+  fetch(`http://localhost:8080/courses/${courseId}`, {
     method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
+    },
   })
     .then((response) => {
       if (!response.ok) {
