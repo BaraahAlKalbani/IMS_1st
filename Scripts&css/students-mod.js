@@ -1,7 +1,29 @@
+//Login and logout authentication
+const username = localStorage.getItem("username");
+const password = localStorage.getItem("password");
+
+if (username == null || password == null) {
+  window.location.href = "login.html";
+}
+
+const logoffButton = document.querySelector("#logOut");
+
+logoffButton.addEventListener("click", () => {
+  localStorage.clear();
+  window.location.href = "login.html";
+});
+
+//get student Ids to display them
 const studentIdSelect1 = document.getElementById("id2");
 const studentIdSelect2 = document.getElementById("id3");
 function addOptionsToSelectstudent(selectElement) {
-  fetch("http://localhost:8080/students")
+  fetch("http://localhost:8080/students", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
+    },
+  })
     .then((response) => response.json())
     .then((students) => {
       students.forEach((student) => {
@@ -18,11 +40,7 @@ function addOptionsToSelectstudent(selectElement) {
 addOptionsToSelectstudent(studentIdSelect1);
 addOptionsToSelectstudent(studentIdSelect2);
 
-//add
-const username = "root";
-const password = "admin";
-const credentials = btoa(`${username}:${password}`);
-
+//add new
 const addBtn = document.getElementById("add");
 
 addBtn.addEventListener("click", (event) => {
@@ -45,7 +63,7 @@ addBtn.addEventListener("click", (event) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Basic ${credentials}`,
+      Authorization: "Basic " + btoa(username + ":" + password),
     },
     body: JSON.stringify(student),
   })
@@ -82,7 +100,7 @@ updateForm.addEventListener("submit", (event) => {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Basic ${credentials}`,
+      Authorization: "Basic " + btoa(username + ":" + password),
     },
     body: JSON.stringify(data),
   })
@@ -109,6 +127,10 @@ deleteForm.addEventListener("submit", (event) => {
 
   fetch(`http://localhost:8080/students/${id}`, {
     method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Basic " + btoa(username + ":" + password),
+    },
   })
     .then((response) => {
       if (response.ok) {

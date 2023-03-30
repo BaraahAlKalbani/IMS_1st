@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Institute Management System</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Scripts&css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="students.html">Students records</a>
             <ul>
-                <li><a href="main.html">Home</a></li>
-                <li>
-                    <a href="students.html">Students records</a>
-                    <ul>
-                        <li><a href="students-mod.html">add|Update|delete</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="teachers.html">Teachers records</a>
-                    <ul>
-                      <li><a href="teachers-mod.html">add|Update|delete</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="courses.html">Courses list</a>
-                    <ul>
-                      <li><a href="courses-mod.html">add|Update|delete</a></li>
-                    </ul>
-                </li>
-                <li><a href="index.html">Sign Out</a></li>
+              <li><a href="students-mod.html">add|Update|delete</a></li>
             </ul>
-            <h3>Institute Management System</h3>
-        </nav>
+          </li>
+          <li>
+            <a href="teachers.html">Teachers records</a>
+            <ul>
+              <li><a href="teachers-mod.html">add|Update|delete</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="courses.html">Courses list</a>
+            <ul>
+              <li><a href="courses-mod.html">add|Update|delete</a></li>
+            </ul>
+          </li>
+          <li><a id="logOut">Sign Out</a></li>
+        </ul>
+        <h3>Institute Management System</h3>
+      </nav>
     </header>
 
     <main id="main">
@@ -95,10 +95,8 @@
       </main>
       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
-    <script type="text/javascript" src="TeacherJavaScript.js"></script>
+    <script type="text/javascript" src="Scripts&css/teachers-mod.js"></script>
 
     </main>
-    <script type="text/javascript" src="TeTable.js"></script>
-
 </body>
 </html>
