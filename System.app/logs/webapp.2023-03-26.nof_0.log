@@ -1,0 +1,216 @@
+2023-03-26 08:06:48.339 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 14008 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 08:06:48.372 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 08:06:49.913 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 08:06:49.929 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:06:49.932 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 08:06:49.933 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 08:06:50.097 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 08:06:50.098 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1534 ms
+2023-03-26 08:06:52.171 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:06:52.205 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 08:06:52.219 INFO  c.I.System.app.Application - Started Application in 4.425 seconds (process running for 5.283)
+2023-03-26 08:07:29.671 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 08:07:29.671 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 08:07:29.671 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-26 08:07:29.971 INFO  c.I.S.app.Services.StudentService - Created student with id: 1
+2023-03-26 08:09:16.924 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 723 ms
+2023-03-26 08:11:35.460 INFO  c.I.S.app.Services.StudentService - Created student with id: 2
+2023-03-26 08:12:25.667 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 14096 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 08:12:25.671 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 08:12:26.803 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 08:12:26.813 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:12:26.814 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 08:12:26.814 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 08:12:26.939 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 08:12:26.940 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1203 ms
+2023-03-26 08:12:28.369 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:12:28.398 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 08:12:28.416 INFO  c.I.System.app.Application - Started Application in 3.137 seconds (process running for 3.85)
+2023-03-26 08:14:05.667 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 9640 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 08:14:05.671 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 08:14:06.737 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 08:14:06.748 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:14:06.748 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 08:14:06.748 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 08:14:06.868 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 08:14:06.868 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1143 ms
+2023-03-26 08:14:07.861 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:14:07.884 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 08:14:07.893 INFO  c.I.System.app.Application - Started Application in 2.599 seconds (process running for 3.21)
+2023-03-26 08:14:57.392 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 08:14:57.392 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 08:14:57.392 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-26 08:14:57.677 INFO  c.I.S.app.Services.StudentService - Created student with id: 1
+2023-03-26 08:15:22.146 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 742 ms
+2023-03-26 08:40:03.979 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 5368 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 08:40:03.983 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 08:40:05.056 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 08:40:05.067 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:40:05.069 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 08:40:05.069 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 08:40:05.181 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 08:40:05.182 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1152 ms
+2023-03-26 08:40:06.223 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:40:06.246 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 08:40:06.259 INFO  c.I.System.app.Application - Started Application in 2.625 seconds (process running for 3.201)
+2023-03-26 08:40:37.040 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 08:40:37.040 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 08:40:37.040 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-26 08:40:37.324 INFO  c.I.S.app.Services.StudentService - Created student with id: 1
+2023-03-26 08:42:38.074 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 2568 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 08:42:38.077 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 08:42:39.240 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 08:42:39.249 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:42:39.250 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 08:42:39.250 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 08:42:39.362 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 08:42:39.363 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1230 ms
+2023-03-26 08:42:40.501 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 08:42:40.529 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 08:42:40.544 INFO  c.I.System.app.Application - Started Application in 2.833 seconds (process running for 3.494)
+2023-03-26 08:42:42.106 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 08:42:42.107 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 08:42:42.109 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-03-26 08:42:42.219 INFO  c.I.S.app.Services.StudentService - Created student: 1 : null : null
+2023-03-26 08:43:12.090 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 289 ms
+2023-03-26 08:43:47.933 INFO  c.I.S.app.Services.StudentService - Created student: 2 : Laith : AA@AA
+2023-03-26 09:48:55.215 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 2156 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 09:48:55.221 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 09:48:55.927 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'studentService' defined in com.InstituteManagementSystem.System.app.Application: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=application; factoryMethodName=studentService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in com.InstituteManagementSystem.System.app.Application] for bean 'studentService' since there is already [Generic bean: class [com.InstituteManagementSystem.System.app.Services.StudentService]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes\com\InstituteManagementSystem\System\app\Services\StudentService.class]] bound.
+2023-03-26 09:48:55.938 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-26 09:48:55.956 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'studentService', defined in com.InstituteManagementSystem.System.app.Application, could not be registered. A bean with that name has already been defined in file [C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes\com\InstituteManagementSystem\System\app\Services\StudentService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-03-26 09:49:18.926 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 14072 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 09:49:18.929 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 09:49:20.210 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 09:49:20.223 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 09:49:20.224 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 09:49:20.224 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 09:49:20.333 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 09:49:20.333 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1339 ms
+2023-03-26 09:49:21.324 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 09:49:21.346 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 09:49:21.358 INFO  c.I.System.app.Application - Started Application in 2.807 seconds (process running for 3.436)
+2023-03-26 09:50:57.696 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 09:50:57.696 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 09:50:57.696 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-26 09:54:13.553 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 2644 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 09:54:13.555 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 09:54:14.809 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 09:54:14.825 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 09:54:14.827 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 09:54:14.828 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 09:54:14.960 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 09:54:14.961 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1351 ms
+2023-03-26 09:54:16.049 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 09:54:16.101 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 09:54:16.113 INFO  c.I.System.app.Application - Started Application in 2.929 seconds (process running for 3.639)
+2023-03-26 09:54:19.713 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 09:54:19.713 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 09:54:19.714 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-26 09:54:19.799 INFO  c.I.S.app.Services.StudentService - Created student : 1 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 09:58:04.963 INFO  c.I.S.app.Services.StudentService - Created student : 2 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 10:04:22.217 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 13768 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 10:04:22.220 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 10:04:23.344 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 10:04:23.354 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 10:04:23.355 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 10:04:23.355 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 10:04:23.531 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 10:04:23.531 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1248 ms
+2023-03-26 10:04:24.489 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 10:04:24.549 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 10:04:24.562 INFO  c.I.System.app.Application - Started Application in 2.716 seconds (process running for 3.449)
+2023-03-26 10:05:45.675 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 10:05:45.675 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 10:05:45.691 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-26 10:05:45.976 INFO  c.I.S.app.Services.StudentService - Created student : 1 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 10:06:28.373 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "${id}"]
+2023-03-26 10:19:32.736 INFO  c.I.S.app.Services.StudentService - Created student : 2 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 10:19:35.322 INFO  c.I.S.app.Services.StudentService - Created student : 3 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 10:22:02.939 INFO  c.I.S.app.Services.StudentService - Created student : 4 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 10:25:51.055 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 10056 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 10:25:51.058 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 10:25:52.110 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 10:25:52.118 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 10:25:52.119 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 10:25:52.120 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 10:25:52.249 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 10:25:52.249 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1138 ms
+2023-03-26 10:25:53.269 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 10:25:53.298 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 10:25:53.310 INFO  c.I.System.app.Application - Started Application in 2.608 seconds (process running for 3.238)
+2023-03-26 10:37:37.341 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 10:37:37.341 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 10:37:37.349 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023-03-26 10:37:38.076 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 390 ms
+2023-03-26 10:38:00.825 INFO  c.I.S.app.Services.StudentService - Created student : 1 : string : string
+2023-03-26 10:38:02.573 INFO  c.I.S.app.Services.StudentService - Created student : 2 : string : string
+2023-03-26 10:38:03.567 INFO  c.I.S.app.Services.StudentService - Created student : 3 : string : string
+2023-03-26 10:41:21.630 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 13496 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 10:41:21.630 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 10:41:22.747 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 10:41:22.758 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 10:41:22.759 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 10:41:22.759 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 10:41:22.875 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 10:41:22.875 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+2023-03-26 10:41:23.818 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 10:41:23.841 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 10:41:23.854 INFO  c.I.System.app.Application - Started Application in 2.588 seconds (process running for 3.162)
+2023-03-26 10:44:17.496 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 10:44:17.496 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 10:44:17.496 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-26 10:44:44.846 INFO  c.I.S.app.Services.StudentService - Created student : 1 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 11:03:37.423 INFO  c.I.S.app.Services.StudentService - Created student : 2 : aa : 2222@gmail.com
+2023-03-26 11:14:16.482 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 13656 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 11:14:16.485 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 11:14:17.672 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 11:14:17.684 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 11:14:17.685 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 11:14:17.685 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 11:14:17.805 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 11:14:17.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1264 ms
+2023-03-26 11:14:18.767 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 11:14:18.791 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 11:14:18.801 INFO  c.I.System.app.Application - Started Application in 2.686 seconds (process running for 3.312)
+2023-03-26 11:15:32.138 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 14016 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 11:15:32.140 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 11:15:33.261 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 11:15:33.269 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 11:15:33.270 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 11:15:33.270 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 11:15:33.393 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 11:15:33.394 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1207 ms
+2023-03-26 11:15:34.569 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 11:15:34.589 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 11:15:34.600 INFO  c.I.System.app.Application - Started Application in 2.814 seconds (process running for 3.401)
+2023-03-26 11:15:41.954 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 11:15:41.954 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-26 11:15:41.968 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2023-03-26 11:15:42.285 INFO  c.I.S.app.Services.StudentService - Created student : 1 : Laith alHooti : Laith22t@gmail.com
+2023-03-26 12:01:36.618 INFO  c.I.System.app.Application - Starting Application using Java 17.0.2 with PID 7792 (C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app\target\classes started by LAP-6 in C:\Users\LAP-6\Documents\HTML\InstituteManagementSystem\System.app)
+2023-03-26 12:01:36.621 INFO  c.I.System.app.Application - No active profile set, falling back to 1 default profile: "default"
+2023-03-26 12:01:37.761 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-26 12:01:37.772 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 12:01:37.773 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-26 12:01:37.773 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-26 12:01:37.909 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-26 12:01:37.910 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1230 ms
+2023-03-26 12:01:38.868 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 12:01:38.922 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 12:01:38.932 INFO  c.I.System.app.Application - Started Application in 2.677 seconds (process running for 3.334)
